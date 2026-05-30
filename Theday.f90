@@ -5,13 +5,13 @@ program happy
       character*100::answer, thing, eating, studying
 
      print*, "Are you happpy today?"
-     read*, answer
+     read(*, 'A'), answer
      print*, answer
      print*, "Have you enjoyed your time?"
-     read*, thing
+     read(*, 'A'), thing
      print*, thing
      print*, "How to finish your work effeciently?"
-     read*, studying
+     read(*, 'A'), studying
      print*, studying
 
 end program happy
