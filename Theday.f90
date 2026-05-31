@@ -2,7 +2,7 @@ program happy
 
       implicit none
 
-      character*100::answer, thing, eating, studying, writing, yes, weight
+      character*100::answer, thing, eating, studying, writing, yes, weigh
 
      print*, "Are you happpy today?"
      read(*, '(A)') answer
