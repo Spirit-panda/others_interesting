@@ -2,7 +2,7 @@ program happy
 
       implicit none
 
-      character*100::answer, thing, eating, studying, writing, yes
+      character*100::answer, thing, eating, studying, writing, yes, weight
 
      print*, "Are you happpy today?"
      read(*, '(A)') answer
@@ -20,5 +20,8 @@ program happy
      else
      print*, "Cheer up! You are genius!"
      endif
+     print*, "Did you weigh yourself?"
+     read(*, '(A)') weigh
+     print*, "Congratulations! Start your wonderful day now!"
 end program happy
 
